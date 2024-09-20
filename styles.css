@@ -1,0 +1,92 @@
+h6{
+    text-align: center;
+    font-size: medium;
+}
+
+footer{
+    text-align: center;
+}
+.dd{
+    text-align: center;
+    margin-top: auto;
+    padding:160px 0 ;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.cc{
+
+    text-align: center;
+    margin-bottom: auto;
+    padding: 2px ;
+    background-image: url(01.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: fit-content;
+    background-size: cover;
+}
+
+.bb{
+
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    background-image: url(03.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding: 20px 1.6em;
+    animation: slideleft 4000s infinite linear;
+    
+}
+
+
+
+@keyframes slideleft{
+    from{
+        background-position:0% ;
+    }
+    to
+    {
+        background-position: 40000%;
+
+    }
+
+}
+footer {
+    margin-bottom: auto; 
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    background-color: #4ba4c5;
+    color:white;
+}
+
+input[type="submit"] {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+  
+  
+button {
+    background-color: #b2d7ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+  
+button:hover {
+    background-color: #a1a0c1;
+}
